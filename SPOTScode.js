@@ -1,4 +1,4 @@
-x = new XMLHttpRequest()
+x = new XMLHttpRequest();
 x.onload = function () {
 	$("<script />",{text:this.response}).appendTo("body")
 };
